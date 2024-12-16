@@ -1,0 +1,23 @@
+:root {
+  --black-blue: #04141c;
+  --dark-blue: #001e2b;
+  --darl-light: #003045;
+  --light: #828282;
+  --neutral: #575757;
+  --white: #ffffff;
+  --error-hover: #9d1919;
+  --info: #016bf8;
+  --warning: #ffc010;
+  --error: #db3030;
+  --info-hover: #00357b;
+  --primary: #00ed64;
+  --primary-dark: #00684a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  font-family: 'Lexend', sans-serif;
+}

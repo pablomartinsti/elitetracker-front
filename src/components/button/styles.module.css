@@ -1,0 +1,21 @@
+.content {
+  background-color: var(--info);
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  height: 36px;
+  width: 100%;
+  border-radius: 5px;
+  transition: background-color 500ms;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.content:hover {
+  background-color: var(--info-hover);
+}
+.content svg {
+  width: 25px;
+  height: 25px;
+}

@@ -1,0 +1,96 @@
+.app {
+  display: flex;
+}
+.container {
+  background-color: var(--dark-blue);
+  height: 100vh;
+  width: 100%;
+}
+.content {
+  width: 55%;
+  border-right: 1px solid var(--light);
+  padding: 20px;
+  height: calc(100vh - 40px);
+}
+
+.content header h1 {
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--white);
+  margin-bottom: 14px;
+}
+.content header span {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--white);
+}
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--white);
+  border-radius: 4px;
+  height: 36px;
+  margin-top: 40px;
+}
+.input input {
+  height: 36px;
+  width: 100%;
+  font-size: 16px;
+  background-color: transparent;
+  color: var(--white);
+  padding: 0 10px;
+  text-transform: capitalize;
+}
+
+.input input::placeholder {
+  color: var(--light);
+}
+
+.input svg {
+  height: 80%;
+  width: 40px;
+  fill: var(--white);
+  cursor: pointer;
+  transition: fill 500ms;
+}
+.input svg:hover {
+  fill: var(--info);
+}
+
+.habits {
+  margin-top: 40px;
+}
+.habit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 46px;
+  border-bottom: 1px solid var(--light);
+}
+.habit p {
+  font-size: 16px;
+  color: var(--white);
+}
+.habit div {
+  width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.habit div input {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+.habit div svg {
+  height: 100%;
+  width: 30px;
+  cursor: pointer;
+  fill: var(--white);
+  transition: fill 500ms;
+}
+.habit div svg:hover {
+  fill: var(--error);
+  cursor: pointer;
+}
